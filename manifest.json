@@ -1,0 +1,30 @@
+{
+  "name": "Vite Dev Tool",
+  "version": "1.0",
+  "description": "A Chrome browser extension tool for your Vite app",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "*://*.github.io/**",
+    "*://*.127.0.0.1/**"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.github.io/**"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/logo.png"
+  },
+  "manifest_version": 3
+}
