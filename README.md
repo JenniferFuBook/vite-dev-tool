@@ -6,7 +6,7 @@ located in the top right corner.
 
 Click on Load unpacked and select the directory of this repository.
 
-Execute following commands at domino/frontend/pipelines-ui-app: 
+Execute following commands at root directory: 
 * yarn dev
 * yarn build -- --watch
 
