@@ -1,4 +1,4 @@
-const RULES =  [
+const RULES = [
   {
     "id" : 1,
     "action" : { 
