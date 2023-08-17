@@ -6,8 +6,7 @@
     "declarativeNetRequest"
   ],
   "host_permissions": [
-    "*://*.github.io/**",
-    "*://*.127.0.0.1/**"
+    "*://*.github.io/**"
   ],
   "background": {
     "service_worker": "background.js"
