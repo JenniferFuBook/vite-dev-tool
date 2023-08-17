@@ -1,4 +1,4 @@
-This is a Chrome browser extension that serves the UI Vite app from your local machine 
+This is a Chrome browser extension that serves the UI of Vite app from your local machine 
 while you're browsing a cloud deployment.
 
 To get started, go to chrome://extensions on your Chrome browser. Turn on the Developer Mode switch 
